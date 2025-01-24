@@ -3,9 +3,9 @@ package PlayerCompletesLevel;
 // Simulates players completing a level in a game using threads
 public class ThreadLevelCompleter extends Thread {
 	// Name of the player
-	private String playerName;     
+	private String playerName;
 	// Time (in seconds) the player takes to complete the level
-	private int completingTime;    
+	private int completingTime;
 	
 	// Constructor to initialize player name and completion time
 	public ThreadLevelCompleter(String playerName, int completingTime) {
