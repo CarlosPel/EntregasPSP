@@ -1,4 +1,4 @@
-package PlayerCompletesLevelRunnable;
+package PlayerCompletesLevel;
 
 // Simulates players completing a level in a game using the Runnable interface
 public class RunnableLevelCompleter implements Runnable {
