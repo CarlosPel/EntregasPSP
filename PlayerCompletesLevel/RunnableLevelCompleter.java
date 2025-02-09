@@ -33,9 +33,9 @@ public class RunnableLevelCompleter implements Runnable {
     // Main method to demonstrate the functionality of LevelCompleter
     public static void main(String[] args) {
         // Create instances of LevelCompleter for each player
-        RunnableLevelCompleter player1 = new RunnableLevelCompleter("Paco", 4);
-        RunnableLevelCompleter player2 = new RunnableLevelCompleter("María", 2);
-        RunnableLevelCompleter player3 = new RunnableLevelCompleter("Diego", 1);
+        RunnableLevelCompleterCopy player1 = new RunnableLevelCompleterCopy("Paco", 4);
+        RunnableLevelCompleterCopy player2 = new RunnableLevelCompleterCopy("María", 2);
+        RunnableLevelCompleterCopy player3 = new RunnableLevelCompleterCopy("Diego", 1);
         
         // Create threads for each player
         Thread thread1 = new Thread(player1);
